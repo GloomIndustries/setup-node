@@ -1,4 +1,6 @@
-name: 'Setup Node.js environment'
+name: 'Setup Node.js environment'- name: Setup Node.js environment
+  uses: actions/setup-node@v2.4.0
+
 description: 'Setup a Node.js environment by adding problem matchers and optionally downloading and adding it to the PATH'
 author: 'GitHub'
 inputs:
